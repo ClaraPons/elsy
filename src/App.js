@@ -33,9 +33,7 @@ this.gradientWater()
 }
   
 onStepsChange = (e) => {
-  this.setState({
-    steps: e.target.value
-})
+  this.setState({steps: e.target.value})
 this.calculateWater()
 this.gradientWater()
 
